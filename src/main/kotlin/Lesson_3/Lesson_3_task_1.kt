@@ -2,7 +2,7 @@ package org.example.Lesson_5
 
 fun main() {
 
-        val greetingTemplate = "Привет,  "
+        val greetingTemplate = "Привет, "
         val userName = "Алекс"
 
         var fullGreeting = "$greetingTemplate$userName! Хорошего дня!"
