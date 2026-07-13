@@ -3,11 +3,12 @@ package org.example.ks_3_2
 fun main() {
 
     val firstName = "Татьяна"
-    val secondName = "Андреева"
+    var secondName = "Андреева"
     val patronymic = "Сергеевна"
-    val newSecondName = "Сидорова"
+
     val age = 22
-    println("$secondName $firstName $patronymic Возраст ${age-2}")
-    println("$newSecondName $firstName $patronymic Возраст $age")
+    println("$secondName $firstName $patronymic, ${age-2}")
+    secondName = "Сидорова"
+    println("$secondName $firstName $patronymic, $age")
 
 }
