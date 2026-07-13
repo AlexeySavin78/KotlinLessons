@@ -7,8 +7,8 @@ fun main() {
     val patronymic = "Сергеевна"
 
     val age = 22
-    println("$secondName $firstName $patronymic, ${age-2}")
+    println("[$secondName $firstName $patronymic, ${age-2}]")
     secondName = "Сидорова"
-    println("$secondName $firstName $patronymic, $age")
+    println("[$secondName $firstName $patronymic, $age]")
 
 }
