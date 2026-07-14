@@ -1,4 +1,4 @@
-package org.example.KS_3_4
+package org.example.ks_3_4
 
 fun main() {
 
@@ -13,6 +13,5 @@ fun main() {
     moveGame = "2"
 
     println("[$moveStart-$moveEnd;$moveGame]")
-
 
 }
