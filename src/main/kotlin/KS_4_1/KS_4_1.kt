@@ -1,4 +1,4 @@
-package org.example.ks_4_1
+package org.example.KS_4_1
 
 fun main() {
 
