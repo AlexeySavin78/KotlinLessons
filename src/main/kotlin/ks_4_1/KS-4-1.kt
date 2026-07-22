@@ -7,7 +7,7 @@ fun main() {
     val isAvailableToday = bookedToday < TOTAL_TABLES
     val isAvailableTomorrow = bookedTomorrow < TOTAL_TABLES
     println(
-        "[Доступность столиков на сегодня: $isAvailableToday], " +
+        "[Доступность столиков на сегодня: $isAvailableToday]," +
                 "\n[Доступность столиков на завтра: $isAvailableTomorrow]"
     )
 
