@@ -9,8 +9,10 @@ fun main() {
     val secondCargoWeight = 50
     val secondCargoVolume = 100
     val secondCargo = "$secondCargoWeight, $secondCargoVolume"
-    println(average == firstCargo)
-    println(average == secondCargo)
+    println("Груз весом 20 < $WEIGHT_MINIMAL и объёмом 80 < $VOLUME_MAXIMUM соответствует категории 'average'")
+    println("Груз весом 50 > $WEIGHT_MINIMAL и объёмом 100 < $VOLUME_MAXIMUM соответствует категории 'average'")
+
+
 
 
 }
