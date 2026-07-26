@@ -7,13 +7,13 @@ fun main() {
     val weightSecondCargo = 50
     val volumeSecondCargo = 100
     println(
-        "Груз с весом 20 кг и объёмом 80 л соответствует категории 'Average': ${
+        "Груз с весом $weightFirstCargo кг и объёмом $volumeFirstCargo л соответствует категории 'Average': ${
             weightFirstCargo > WEIGHT_MINIMAL && weightFirstCargo <= WEIGHT_MAXIMUM
                     && volumeFirstCargo < VOLUME_MAXIMUM
         }"
     )
     println(
-        "Груз с весом 50 кг и объёмом 100 л соответствует категории 'Average': ${
+        "Груз с весом $weightSecondCargo кг и объёмом $volumeSecondCargo л соответствует категории 'Average': ${
             weightSecondCargo > WEIGHT_MINIMAL && weightSecondCargo <= WEIGHT_MAXIMUM
                     && volumeSecondCargo < VOLUME_MAXIMUM
         }"
