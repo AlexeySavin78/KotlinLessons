@@ -4,9 +4,9 @@ fun main() {
 
     val isWeatherToday = true
     val isOpenAwning = true
-    val isHumidity = 20
-    val isTimeOfYear = "зима"
-    val plantMonitoring = isWeatherToday && isOpenAwning && HUMIDITY_THRESHOLD == isHumidity && TIME_OF_YEAR != isTimeOfYear
+    val Humidity = 20
+    val TimeOfYear = "зима"
+    val plantMonitoring = isWeatherToday && isOpenAwning && HUMIDITY_THRESHOLD == Humidity && TIME_OF_YEAR != TimeOfYear
     println("Благоприятные ли условия сейчас для роста бобовых? $plantMonitoring")
 
 
