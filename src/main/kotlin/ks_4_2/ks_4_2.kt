@@ -2,15 +2,18 @@ package org.example.ks_4_2
 
 fun main() {
 
-    val average = "$WEIGHT_MINIMAL, $WEIGHT_MAXIMUM, $VOLUME_MAXIMUM"
-    val firstCargoWeight = 20
-    val firstCargoVolume = 80
-    val firstCargo = "$firstCargoWeight, $firstCargoVolume"
-    val secondCargoWeight = 50
-    val secondCargoVolume = 100
-    val secondCargo = "$secondCargoWeight, $secondCargoVolume"
-    println("Груз весом 20 < $WEIGHT_MINIMAL и объёмом 80 < $VOLUME_MAXIMUM соответствует категории 'average'")
-    println("Груз весом 50 > $WEIGHT_MINIMAL и объёмом 100 < $VOLUME_MAXIMUM соответствует категории 'average'")
+    val weightFirstCargo = 20
+    val volumeFirstCargo = 80
+    val weightSecondCargo = 50
+    val volumeSecondCargo = 100
+    val average = weightFirstCargo > WEIGHT_MINIMAL && weightFirstCargo <= WEIGHT_MAXIMUM
+            && volumeFirstCargo < VOLUME_MAXIMUM
+    println(average)
+    val average2 = weightSecondCargo > WEIGHT_MINIMAL && weightSecondCargo <= WEIGHT_MAXIMUM
+            && volumeSecondCargo < VOLUME_MAXIMUM
+    println(average2)
+    println("Груз весом $weightFirstCargo и объёмом $volumeFirstCargo соответствует категории 'average'")
+    println("Груз весом $weightSecondCargo и объёмом $volumeSecondCargo соответствует категории 'average'")
 
 
 
