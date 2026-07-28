@@ -6,8 +6,8 @@ fun main() {
     val isExerciseForLegs = false
     val isExerciseForBack = false
     val isExerciseForAbs = true
-    println("Упражнение для рук:    $isExerciseForHands \nУпражнение для ног:    $isExerciseForLegs " +
-            "\nУпражнение для спины:  $isExerciseForBack \nУпражнение для пресса: $isExerciseForAbs")
+    println("Упражнение для рук:     $isExerciseForHands \nУпражнение для ног:     $isExerciseForLegs " +
+            "\nУпражнение для спины:   $isExerciseForBack \nУпражнение для пресса:  $isExerciseForAbs")
 
 
 }
