@@ -9,13 +9,8 @@ fun main() {
     val isAbs = 1
 
     println(
-        "Упражнения для рук:     ${isTrainingDay == isHands} \nУпражнения для ног:     ${isTrainingDay == isLegs} " +
-                "\nУпражнения для спины:   ${isTrainingDay == isBack} \nУпражнения для пресса:  ${isTrainingDay == isAbs}"
-    )
-    isTrainingDay = 2
-    println(
-        "Упражнения для рук:     ${isTrainingDay == isHands} \nУпражнения для ног:     ${isTrainingDay == isLegs} " +
-                "\nУпражнения для спины:   ${isTrainingDay == isBack} \nУпражнения для пресса:  ${isTrainingDay == isAbs}"
+        "Упражнения для рук:     ${(isTrainingDay + 1) == isHands}" + "Упражнения для ног:     ${(isTrainingDay + 1)== isLegs} " +
+                "Упражнения для спины:   ${(isTrainingDay + 1) == isBack} Упражнения для пресса:  ${(isTrainingDay + 1) == isAbs}"
     )
 
 }
