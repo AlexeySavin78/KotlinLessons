@@ -2,15 +2,16 @@ package org.example.ks_4_4
 
 fun main() {
 
-    var isTrainingDay = true
+    var isTrainingDay = 1
+    val isHands = true
+    val isLegs = false
+    val isBack = false
+    val isAbs = true
+
     println(
-        "Упражнения для рук:     $isTrainingDay \nУпражнения для ног:     ${!isTrainingDay} " +
-                "\nУпражнени для спины:    ${!isTrainingDay} \nУпражнения для пресса:  $isTrainingDay"
+        "Упражнения для рук:     $isHands \nУпражнения для ног:     $isLegs " +
+                "\nУпражнения для спины:   $isBack \nУпражнения для пресса:  $isAbs"
     )
-    isTrainingDay = false
-    println(
-        "Упражнения для рук:     $isTrainingDay \nУпражнения для ног:     ${!isTrainingDay} " +
-                "\nУпражнени для спины:    ${!isTrainingDay} \nУпражнения для пресса:  $isTrainingDay"
-    )
+
 
 }
