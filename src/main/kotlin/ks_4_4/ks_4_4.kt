@@ -12,6 +12,10 @@ fun main() {
         "Упражнения для рук:     ${isTrainingDay == isHands} \nУпражнения для ног:     ${isTrainingDay == isLegs} " +
                 "\nУпражнения для спины:   ${isTrainingDay == isBack} \nУпражнения для пресса:  ${isTrainingDay == isAbs}"
     )
-
+    isTrainingDay = 2
+    println(
+        "Упражнения для рук:     ${isTrainingDay == isHands} \nУпражнения для ног:     ${isTrainingDay == isLegs} " +
+                "\nУпражнения для спины:   ${isTrainingDay == isBack} \nУпражнения для пресса:  ${isTrainingDay == isAbs}"
+    )
 
 }
