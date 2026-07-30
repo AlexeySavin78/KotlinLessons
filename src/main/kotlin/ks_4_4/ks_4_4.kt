@@ -10,5 +10,5 @@ fun main() {
       val isback = !isabs
 
     println(
-        "Упражнения для рук:   ${trainingDay == ishands} \nУпражнения для ног:    ${trainingDay == islegs} \nУпражнения для спины:  ${trainingDay == isback} \nУпражнения для пресса: ${trainingDay == isabs}")
+        "Упражнения для рук:    ${trainingDay == ishands} \nУпражнения для ног:    ${trainingDay == islegs} \nУпражнения для спины:  ${trainingDay == isback} \nУпражнения для пресса: ${trainingDay == isabs}")
 }
