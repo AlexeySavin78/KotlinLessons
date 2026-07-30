@@ -2,15 +2,13 @@ package org.example.ks_4_4
 
 fun main() {
 
-    var isTrainingDay = 1
-    val isHands = 1
-    val isLegs = 2
-    val isBack = 2
-    val isAbs = 1
+    var isTrainingDay = 5
+    val isHands = 5
+    val isLegs = 6
+    val isBack = 6
+    val isAbs = 5
 
     println(
-        "Упражнения для рук:     ${(isTrainingDay + 1) == isHands}" + "Упражнения для ног:     ${(isTrainingDay + 1)== isLegs} " +
-                "Упражнения для спины:   ${(isTrainingDay + 1) == isBack} Упражнения для пресса:  ${(isTrainingDay + 1) == isAbs}"
-    )
+        "Упражнения для рук:    ${isTrainingDay == isHands} \nУпражнения для ног:    ${isTrainingDay == isLegs} \nУпражнения для спины:  ${isTrainingDay == isBack} \nУпражнения для пресса: ${isTrainingDay == isAbs} ${isTrainingDay + 1}")
 
 }
