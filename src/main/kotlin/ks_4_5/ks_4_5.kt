@@ -4,6 +4,7 @@ fun main() {
 
     val hull = readln().toBoolean()
     val isHullIntact = hull == true
+    val isHullIntact1 = hull == false
     val crew = readln().toInt()
     val hasEnoughCrew = crew in 55..70
     val hasEnoughCrew1 = crew == 70
@@ -15,7 +16,7 @@ fun main() {
     val isWeatherSafe1 = weather == false
 
     val canDeparture = (isHullIntact && hasEnoughCrew && isBoxProvisions && (isWeatherSafe || isWeatherSafe1))
-            || (!isHullIntact && hasEnoughCrew1 && isBoxProvisions1 && isWeatherSafe)
+            || (isHullIntact1 && hasEnoughCrew1 && isBoxProvisions1 && isWeatherSafe)
 
     println(canDeparture)
 
