@@ -5,11 +5,11 @@ fun main() {
     val hull = readln().toBoolean()
     val isHullIntact = hull == false
     val crew = readln().toInt()
-    val hasEnoughCrew = crew in 55..70
-    val hasEnoughCrew1 = crew == 70
+    val hasEnoughCrew = crew in ENOUGH_CREW_LOWER..ENOUGH_CREW_UPPER
+    val hasEnoughCrew1 = crew == ENOUGH_CREW_UPPER
     val provisions = readln().toInt()
-    val isBoxProvisions = provisions > 50
-    val isBoxProvisions1 = provisions >= 50
+    val isBoxProvisions = provisions > BOX_PROVISION
+    val isBoxProvisions1 = provisions >= BOX_PROVISION
     val weather = readln().toBoolean()
     val isWeatherSafe = weather == true
 
@@ -20,3 +20,7 @@ fun main() {
 
 
 }
+
+    const val ENOUGH_CREW_LOWER = 55
+    const val ENOUGH_CREW_UPPER = 70
+    const val BOX_PROVISION = 50
