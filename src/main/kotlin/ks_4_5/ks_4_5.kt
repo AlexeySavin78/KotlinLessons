@@ -3,7 +3,7 @@ package org.example.ks_4_5
 fun main() {
 
     val hull = readln().toBoolean()
-    val isHullIntact = hull == false
+    val isHullIntact = hull == true
     val crew = readln().toInt()
     val hasEnoughCrew = crew in ENOUGH_CREW_LOWER..ENOUGH_CREW_UPPER
     val hasEnoughCrew1 = crew == ENOUGH_CREW_UPPER
@@ -21,6 +21,6 @@ fun main() {
 
 }
 
-    const val ENOUGH_CREW_LOWER = 55
-    const val ENOUGH_CREW_UPPER = 70
-    const val BOX_PROVISION = 50
+const val ENOUGH_CREW_LOWER = 55
+const val ENOUGH_CREW_UPPER = 70
+const val BOX_PROVISION = 50
