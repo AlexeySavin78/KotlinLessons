@@ -3,18 +3,17 @@ package org.example.ks_4_5
 fun main() {
 
     val hull = readln().toBoolean()
-    val isHullIntact = hull == true
+    val isHullDamaged = hull == true
     val crew = readln().toInt()
     val hasEnoughCrew = crew >= ENOUGH_CREW_LOWER && crew <= ENOUGH_CREW_UPPER
     val hasEnoughCrew1 = crew == ENOUGH_CREW_UPPER
     val provisions = readln().toInt()
     val isBoxProvisions = provisions > BOX_PROVISION
     val isBoxProvisions1 = provisions >= BOX_PROVISION
-    val weather = readln().toBoolean()
-    val isWeatherSafe = weather == true
+    val isWeatherSafe = readln().toBoolean()
 
-    val canDeparture = (!isHullIntact && hasEnoughCrew && isBoxProvisions)
-            || (isHullIntact && hasEnoughCrew1 && isBoxProvisions1 && isWeatherSafe)
+    val canDeparture = (!isHullDamaged && hasEnoughCrew && isBoxProvisions)
+            || (isHullDamaged && hasEnoughCrew1 && isBoxProvisions1 && isWeatherSafe)
 
     println(canDeparture)
 
