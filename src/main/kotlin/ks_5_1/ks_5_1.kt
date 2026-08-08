@@ -4,10 +4,10 @@ fun main() {
 
     val firstNumber = 33
     val secondNumber = 56
-    val amoundAddition = firstNumber + secondNumber
+    val sum = firstNumber + secondNumber
     println("Проверка на бота. Сложите два числа: $firstNumber + $secondNumber")
     val resultAddition = readln().toInt()
-    if (resultAddition == amoundAddition) println("Добро пожаловать!")
+    if (resultAddition == sum) println("Добро пожаловать!")
     else println("Доступ запрещен.")
 
 }
