@@ -7,10 +7,14 @@ fun main() {
     val secondNumber = readln().toInt()
     val correctNumberOne = 7
     val correctNumberTwo = 35
-    if (firstNumber == correctNumberTwo && secondNumber == correctNumberOne) {
+    if ((firstNumber == correctNumberTwo || firstNumber == correctNumberOne) &&
+        (secondNumber == correctNumberTwo || secondNumber == correctNumberOne)
+    ) {
         println("Поздравляем! Вы выиграли главный приз!")
-    } else if (firstNumber == correctNumberTwo || secondNumber == correctNumberOne) {
+    } else if ((firstNumber == correctNumberTwo || firstNumber == correctNumberOne) ||
+        (secondNumber == correctNumberTwo || secondNumber == correctNumberOne)
+    ) {
         println("Вы выиграли утешительный приз!")
     } else println("Неудача!")
-    println("Выигрышные номера 35 и 7")
+    println("Выигрышные номера $correctNumberTwo и $correctNumberOne")
 }
