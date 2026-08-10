@@ -2,7 +2,7 @@ package org.example.ks_5_3
 
 fun main() {
 
-    println("Лоторея. Что бы участвовать в лотерее, введите два числа от 0 до 42:")
+    println("Лотерея. Чтобы участвовать в лотерее, введите два числа от 0 до 42:")
     val firstNumber = readln().toInt()
     val secondNumber = readln().toInt()
     val correctNumberOne = 7
