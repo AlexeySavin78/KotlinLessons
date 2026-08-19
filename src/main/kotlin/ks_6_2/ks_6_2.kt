@@ -1,6 +1,5 @@
 package org.example.ks_6_2
 
-import kotlin.concurrent.thread
 
 fun main() {
 
