@@ -3,11 +3,11 @@ package org.example.ks_6_3
 fun main() {
 
     println("Таймер. Введите колличество секунд, которое нужно засечь:")
-    var secondsTimer = readln().toInt()
+    var seconds = readln().toInt()
     do {
-        println("Осталось секунд: $secondsTimer")
+        println("Осталось секунд: $seconds")
         Thread.sleep(1000)
-        secondsTimer--
-    } while (secondsTimer > 0)
+        seconds--
+    } while (seconds > 0)
     println("Время вышло")
 }
